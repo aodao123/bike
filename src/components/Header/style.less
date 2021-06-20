@@ -1,0 +1,57 @@
+.header-container{
+    background: #ffffff;
+    .top{
+        height: 60px;
+        padding: 0px 20px;
+        line-height: 60px;
+        text-align: right;
+        a{
+            margin-left: 40px;
+        }
+    }
+    .bottom{
+        height: 40px;
+        border-top: 1px solid #1DA57A;
+        padding: 0px 20px;
+        line-height: 40px;
+        .bottom-title{
+            text-align: center;
+            &::after{
+                position: absolute;
+                left: 50%;
+                top: 38px;
+                margin-left: -15px;
+                content: "";
+                border-top: 10px solid #ffffff;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+            }
+        }
+        .bottom-weather{
+            text-align: right;
+            .weather{
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+//common页面的简单头
+.simple-page{
+    .top{
+        background: #1890ff;
+        color: #ffffff;
+    }
+    img{
+        display: inline-block;
+        width: 30px;
+        vertical-align: middle;
+        margin-left: -100px;
+        margin-right: 10px;
+    }
+    .logo-text{
+        font-size: 18px;
+        vertical-align: middle;
+        line-height: 30px;
+    }
+}
